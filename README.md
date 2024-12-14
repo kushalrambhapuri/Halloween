@@ -18,18 +18,18 @@ from time import sleep
 
 pygame.init()  
 
-# Set up a fullscreen window  
+Set up a fullscreen window  
 window = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)  
 
-# Initialize the mixer for sounds  
+Initialize the mixer for sounds  
 pygame.mixer.init()  
 
-# Play the first sound  
+Play the first sound  
 pygame.mixer.music.load('ratsasan.mp3')  
 pygame.mixer.music.play()  
 sleep(5)  # Let the first sound play for 5 seconds  
 
-# Play the scary sound and display the jump scare image  
+Play the scary sound and display the jump scare image  
 pygame.mixer.music.load('scary.mp3')  
 pygame.mixer.music.play()  
 sleep(1)  
